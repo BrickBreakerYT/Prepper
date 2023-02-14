@@ -25,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Dummy",
+  "name": "Object3",
   "tags": [],
   "resourceType": "GMObject",
 }

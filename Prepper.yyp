@@ -1,7 +1,7 @@
 {
   "resources": [
-    {"id":{"name":"Dummy","path":"objects/Dummy/Dummy.yy",},"order":0,},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":1,},
+    {"id":{"name":"Object3","path":"objects/Object3/Object3.yy",},"order":2,},
     {"id":{"name":"Dum","path":"objects/Dum/Dum.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
