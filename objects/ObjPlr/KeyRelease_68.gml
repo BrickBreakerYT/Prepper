@@ -1,0 +1,1 @@
+MoveRight = 0;
