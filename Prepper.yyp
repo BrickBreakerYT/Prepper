@@ -1,12 +1,15 @@
 {
   "resources": [
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":1,},
+    {"id":{"name":"SprBkrWake","path":"sprites/SprBkrWake/SprBkrWake.yy",},"order":1,},
     {"id":{"name":"SprPlrWalk","path":"sprites/SprPlrWalk/SprPlrWalk.yy",},"order":0,},
+    {"id":{"name":"SprBkrIdle","path":"sprites/SprBkrIdle/SprBkrIdle.yy",},"order":0,},
     {"id":{"name":"Object3","path":"objects/Object3/Object3.yy",},"order":2,},
     {"id":{"name":"TilMainTiles","path":"tilesets/TilMainTiles/TilMainTiles.yy",},"order":0,},
     {"id":{"name":"SprPlrTNTIdle","path":"sprites/SprPlrTNTIdle/SprPlrTNTIdle.yy",},"order":1,},
     {"id":{"name":"Dum","path":"objects/Dum/Dum.yy",},"order":1,},
     {"id":{"name":"ObjPlr","path":"objects/ObjPlr/ObjPlr.yy",},"order":3,},
+    {"id":{"name":"SprBkrFire","path":"sprites/SprBkrFire/SprBkrFire.yy",},"order":2,},
     {"id":{"name":"SprMainTiles","path":"sprites/SprMainTiles/SprMainTiles.yy",},"order":2,},
     {"id":{"name":"SprPlrThrow","path":"sprites/SprPlrThrow/SprPlrThrow.yy",},"order":2,},
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},"order":3,},
@@ -54,6 +57,7 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Player.yy","order":1,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Biker.yy","order":4,"resourceVersion":"1.0","name":"Biker","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
