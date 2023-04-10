@@ -25,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Dum",
+  "name": "Obj_Enemy3",
   "tags": [],
   "resourceType": "GMObject",
 }

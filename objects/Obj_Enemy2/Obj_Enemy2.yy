@@ -25,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object3",
+  "name": "Obj_Enemy2",
   "tags": [],
   "resourceType": "GMObject",
 }

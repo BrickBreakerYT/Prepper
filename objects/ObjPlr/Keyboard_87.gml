@@ -1,1 +1,0 @@
-MoveRight = 1;
