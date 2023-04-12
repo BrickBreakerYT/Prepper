@@ -16,6 +16,7 @@
     {"id":{"name":"SprBRT7Stop","path":"sprites/SprBRT7Stop/SprBRT7Stop.yy",},"order":3,},
     {"id":{"name":"SprMainTiles","path":"sprites/SprMainTiles/SprMainTiles.yy",},"order":2,},
     {"id":{"name":"SprBRT7Load","path":"sprites/SprBRT7Load/SprBRT7Load.yy",},"order":4,},
+    {"id":{"name":"DuMM","path":"sprites/DuMM/DuMM.yy",},"order":6,},
     {"id":{"name":"SprBkrRoll","path":"sprites/SprBkrRoll/SprBkrRoll.yy",},"order":3,},
     {"id":{"name":"SprPlrThrow","path":"sprites/SprPlrThrow/SprPlrThrow.yy",},"order":2,},
     {"id":{"name":"SprBRT7Roll","path":"sprites/SprBRT7Roll/SprBRT7Roll.yy",},"order":0,},
