@@ -47,7 +47,7 @@
     "spriteId": {"name":"SprBRT7Roll","path":"sprites/SprBRT7Roll/SprBRT7Roll.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 20.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

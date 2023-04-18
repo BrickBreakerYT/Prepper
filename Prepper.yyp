@@ -7,6 +7,7 @@
     {"id":{"name":"SprBkrIdle","path":"sprites/SprBkrIdle/SprBkrIdle.yy",},"order":0,},
     {"id":{"name":"Enemy1","path":"objects/Enemy1/Enemy1.yy",},"order":1,},
     {"id":{"name":"TilMainTiles","path":"tilesets/TilMainTiles/TilMainTiles.yy",},"order":0,},
+    {"id":{"name":"SprTNT","path":"sprites/SprTNT/SprTNT.yy",},"order":7,},
     {"id":{"name":"SprBRT7Fire","path":"sprites/SprBRT7Fire/SprBRT7Fire.yy",},"order":5,},
     {"id":{"name":"SprPlrTNTIdle","path":"sprites/SprPlrTNTIdle/SprPlrTNTIdle.yy",},"order":1,},
     {"id":{"name":"Enemy3","path":"objects/Enemy3/Enemy3.yy",},"order":3,},
@@ -20,13 +21,13 @@
     {"id":{"name":"ObjCollison","path":"objects/ObjCollison/ObjCollison.yy",},"order":16,},
     {"id":{"name":"Enemy2","path":"objects/Enemy2/Enemy2.yy",},"order":2,},
     {"id":{"name":"DuMM","path":"sprites/DuMM/DuMM.yy",},"order":6,},
-    {"id":{"name":"SprBkrRoll","path":"sprites/SprBkrRoll/SprBkrRoll.yy",},"order":3,},
+    {"id":{"name":"SprBkrCurl","path":"sprites/SprBkrCurl/SprBkrCurl.yy",},"order":3,},
+    {"id":{"name":"SprBRTRckt","path":"sprites/SprBRTRckt/SprBRTRckt.yy",},"order":8,},
     {"id":{"name":"SprPlrThrow","path":"sprites/SprPlrThrow/SprPlrThrow.yy",},"order":2,},
     {"id":{"name":"SprBRT7Roll","path":"sprites/SprBRT7Roll/SprBRT7Roll.yy",},"order":0,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},"order":3,},
     {"id":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},"order":2,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
@@ -50,7 +51,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},},
   ],
   "Folders": [
