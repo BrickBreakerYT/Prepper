@@ -7,6 +7,7 @@
     {"id":{"name":"SprBkrIdle","path":"sprites/SprBkrIdle/SprBkrIdle.yy",},"order":0,},
     {"id":{"name":"Enemy1","path":"objects/Enemy1/Enemy1.yy",},"order":1,},
     {"id":{"name":"TilMainTiles","path":"tilesets/TilMainTiles/TilMainTiles.yy",},"order":0,},
+    {"id":{"name":"TNT","path":"sprites/TNT/TNT.yy",},"order":7,},
     {"id":{"name":"SprBRT7Fire","path":"sprites/SprBRT7Fire/SprBRT7Fire.yy",},"order":5,},
     {"id":{"name":"SprPlrTNTIdle","path":"sprites/SprPlrTNTIdle/SprPlrTNTIdle.yy",},"order":1,},
     {"id":{"name":"Enemy3","path":"objects/Enemy3/Enemy3.yy",},"order":3,},
@@ -17,7 +18,7 @@
     {"id":{"name":"SprBRT7Load","path":"sprites/SprBRT7Load/SprBRT7Load.yy",},"order":4,},
     {"id":{"name":"Enemy2","path":"objects/Enemy2/Enemy2.yy",},"order":2,},
     {"id":{"name":"DuMM","path":"sprites/DuMM/DuMM.yy",},"order":6,},
-    {"id":{"name":"SprBkrRoll","path":"sprites/SprBkrRoll/SprBkrRoll.yy",},"order":3,},
+    {"id":{"name":"SprBkrCurl","path":"sprites/SprBkrCurl/SprBkrCurl.yy",},"order":3,},
     {"id":{"name":"SprPlrThrow","path":"sprites/SprPlrThrow/SprPlrThrow.yy",},"order":2,},
     {"id":{"name":"SprBRT7Roll","path":"sprites/SprBRT7Roll/SprBRT7Roll.yy",},"order":0,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
@@ -47,8 +48,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
