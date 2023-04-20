@@ -4,7 +4,7 @@
     "path": "sprites/Sprite17/Sprite17.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Prepper",
-    "path": "Prepper.yyp",
+    "name": "Hidden",
+    "path": "folders/Objects/Hidden.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjBarrier",

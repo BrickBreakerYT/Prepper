@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Prepper",
-    "path": "Prepper.yyp",
+    "name": "Hidden",
+    "path": "folders/Objects/Hidden.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjCollison",
