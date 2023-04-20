@@ -60,10 +60,10 @@ if throwing{
 
 	// Sets player facing direction
 	if (MoveRight - MoveLeft) > 0.1 {
-		image_xscale = lerp(image_xscale, -1 , 0.5)
+		image_xscale = lerp(image_xscale, -1 , 0.75)
 	}
 	else if (MoveRight - MoveLeft) < -0.1{
-		image_xscale = lerp(image_xscale, 1 , 0.5)
+		image_xscale = lerp(image_xscale, 1 , 0.75)
 	}
 }
 depth = -y
