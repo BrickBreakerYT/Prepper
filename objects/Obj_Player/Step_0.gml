@@ -9,7 +9,7 @@ vy = ((MoveDown - MoveUp)* WalkSpeed)
 
 
 if (vx == 0 && vy == 0) {
-	
+	// Put idle here
 }
 
 if (vx != 0 || vy != 0) {
@@ -26,3 +26,5 @@ if (vx != 0 || vy != 0) {
 		y += vy;
 	}
 }
+
+depth =-y;
