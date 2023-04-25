@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "SprBkrIdle",
-    "path": "sprites/SprBkrIdle/SprBkrIdle.yy",
+    "name": "SprBRT7Idle",
+    "path": "sprites/SprBRT7Idle/SprBRT7Idle.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -22,15 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Enemy1",
+  "name": "ObjBRT7",
   "tags": [],
   "resourceType": "GMObject",
 }

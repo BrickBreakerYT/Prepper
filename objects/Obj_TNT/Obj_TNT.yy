@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "SprBRT7Idle",
-    "path": "sprites/SprBRT7Idle/SprBRT7Idle.yy",
+    "name": "SprTNT",
+    "path": "sprites/SprTNT/SprTNT.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Enemy2",
+  "name": "Obj_TNT",
   "tags": [],
   "resourceType": "GMObject",
 }

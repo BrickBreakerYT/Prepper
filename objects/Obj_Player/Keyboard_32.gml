@@ -1,1 +1,1 @@
-sprite_index = SprPlrThrow
+throwing = true

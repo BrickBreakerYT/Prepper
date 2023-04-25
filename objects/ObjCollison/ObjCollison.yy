@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Hidden",
+    "path": "folders/Objects/Hidden.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjCollison",
