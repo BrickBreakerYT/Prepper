@@ -1,3 +1,7 @@
+
+//Locks player in place when throwing TNT
+//See "Key Down - Space" and "Animation End"
+//This step must be done before movement is calculated
 if throwing{
 	image_speed = 1
 	sprite_index = SprPlrThrowTNT
@@ -5,7 +9,7 @@ if throwing{
 	x = preX
 	y = preY
 	
-	show_debug_message(image_speed)
+
 }
 	else{
 	//Grabs Inputs
