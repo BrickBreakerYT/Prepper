@@ -1,8 +1,2 @@
-currentState = "Asleep"
-facingDirection = 1
-
-
-wakeupRange = 40
-playerX = 0
-playerY = 0
-distToPlayer = 0
+/// @description Insert description here
+// You can write your code in this editor
