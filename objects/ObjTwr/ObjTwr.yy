@@ -27,7 +27,7 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Enemy3",
+  "name": "ObjTwr",
   "tags": [],
   "resourceType": "GMObject",
 }

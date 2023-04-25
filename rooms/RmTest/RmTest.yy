@@ -30,6 +30,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":96.0,"resourceVersion":"1.0","name":"inst_D75C3EE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjBkr","path":"objects/ObjBkr/ObjBkr.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":25.0,"y":300.0,"resourceVersion":"1.0","name":"inst_732F580E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ObjTNT","path":"objects/ObjTNT/ObjTNT.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":316.0,"y":84.0,"resourceVersion":"1.0","name":"inst_70E51136","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"SprPlrWalk","path":"sprites/SprPlrWalk/SprPlrWalk.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":271.0,"resourceVersion":"1.0","name":"graphic_38FD27F5","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -136,6 +137,7 @@
     {"name":"inst_55115C39","path":"rooms/RmTest/RmTest.yy",},
     {"name":"inst_4FC3C52D","path":"rooms/RmTest/RmTest.yy",},
     {"name":"inst_1A18A6FC","path":"rooms/RmTest/RmTest.yy",},
+    {"name":"inst_70E51136","path":"rooms/RmTest/RmTest.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

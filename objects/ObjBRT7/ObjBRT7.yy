@@ -30,7 +30,7 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Enemy2",
+  "name": "ObjBRT7",
   "tags": [],
   "resourceType": "GMObject",
 }

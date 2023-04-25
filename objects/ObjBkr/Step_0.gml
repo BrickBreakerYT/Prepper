@@ -31,7 +31,7 @@ else{
 
 
 
-
+//Being awakened by player
 if currentState = "WakeUp"{
 	image_speed = 1
 	if image_index >= 3.5{
@@ -39,8 +39,16 @@ if currentState = "WakeUp"{
 	}
 }
 
+//Idle before firing
 if currentState = "Idle"{
-	sprite_index = SprBkrIdle	
+	sprite_index = SprBkrIdle
+	if idleCountdown >= 0{
+		idleCountdown -= 1
+	}
+	else{
+		idleCountdown = 30
+		currentState = "Firing"
+	}
 }
 
 depth = -y
