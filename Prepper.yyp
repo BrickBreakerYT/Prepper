@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"SprBkrBullet","path":"sprites/SprBkrBullet/SprBkrBullet.yy",},"order":5,},
     {"id":{"name":"SprPlrWalkTNT","path":"sprites/SprPlrWalkTNT/SprPlrWalkTNT.yy",},"order":3,},
     {"id":{"name":"SprBRT7Idle","path":"sprites/SprBRT7Idle/SprBRT7Idle.yy",},"order":2,},
     {"id":{"name":"SprBkrWake","path":"sprites/SprBkrWake/SprBkrWake.yy",},"order":1,},
@@ -20,9 +21,11 @@
     {"id":{"name":"SprMainTiles","path":"sprites/SprMainTiles/SprMainTiles.yy",},"order":2,},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},"order":17,},
     {"id":{"name":"SprBRT7Load","path":"sprites/SprBRT7Load/SprBRT7Load.yy",},"order":4,},
+    {"id":{"name":"ObjBkrBullet","path":"objects/ObjBkrBullet/ObjBkrBullet.yy",},"order":3,},
     {"id":{"name":"ObjCollison","path":"objects/ObjCollison/ObjCollison.yy",},"order":1,},
     {"id":{"name":"ObjBRT7","path":"objects/ObjBRT7/ObjBRT7.yy",},"order":0,},
     {"id":{"name":"DuMM","path":"sprites/DuMM/DuMM.yy",},"order":6,},
+    {"id":{"name":"SprBkrRoll","path":"sprites/SprBkrRoll/SprBkrRoll.yy",},"order":4,},
     {"id":{"name":"SprBkrCurl","path":"sprites/SprBkrCurl/SprBkrCurl.yy",},"order":3,},
     {"id":{"name":"SprBRTRckt","path":"sprites/SprBRTRckt/SprBRTRckt.yy",},"order":8,},
     {"id":{"name":"SprPlrThrowTNT","path":"sprites/SprPlrThrowTNT/SprPlrThrowTNT.yy",},"order":2,},

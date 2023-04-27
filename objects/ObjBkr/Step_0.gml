@@ -11,14 +11,14 @@ if object_exists(Obj_Player){
 
 
 
-if currentState = "Asleep" {
+if currentState == "Asleep" {
 	if distToPlayer <= wakeupRange{
 		currentState = "WakeUp"
 	}
 	sprite_index =  SprBkrWake
 	image_speed = 0
 }
-else{
+else if  currentState != "Roll" && currentState != "Curl" && currentState != "UnCurl"{
 	if playerX > x{
 	facingDirection = lerp(facingDirection, 1, 0.5)
 	}
@@ -32,7 +32,7 @@ else{
 
 
 //Being awakened by player
-if currentState = "WakeUp"{
+if currentState == "WakeUp"{
 	image_speed = 1
 	if image_index >= 3.5{
 		currentState = "Idle"
@@ -40,7 +40,8 @@ if currentState = "WakeUp"{
 }
 
 //Idle before firing
-if currentState = "Idle"{
+if currentState == "Idle"{
+	image_speed = 1
 	sprite_index = SprBkrIdle
 	if idleCountdown >= 0{
 		idleCountdown -= 1
@@ -50,5 +51,50 @@ if currentState = "Idle"{
 		currentState = "Firing"
 	}
 }
+
+if currentState == "Firing"{
+		if shotsFired >= burstSize{
+			currentState = "Curl"
+			shotsFired = 0
+			image_speed = 1
+		}
+		else{
+			if fireDelay > 0{
+				fireDelay -=1
+			}
+			else{
+				fireDelay = 20
+				instance_create_layer(x + (28*facingDirection), y - 26, "Instances", ObjBkrBullet)
+				shotsFired += 1
+				sprite_index = SprBkrFire
+			}
+		}
+	}
+
+if currentState == "Roll"{
+	if rolling = false{
+		direction = point_direction(x,y,Obj_Player.x,Obj_Player.y - 15)
+		speed = 3
+		rolling = true
+	}
+}
+
+if currentState == "UnCurl"{
+	if stun > 0{
+		image_speed = 0
+		stun -= 1
+	}
+	else{
+		image_speed = 1
+		image_index = SprBkrCurl
+	}
+}
+
+show_debug_message(string(sprite_index))
+
+
+//if !collision_point(x+vx,y,ObjCollison,true,true){}
+
+
 
 depth = -y

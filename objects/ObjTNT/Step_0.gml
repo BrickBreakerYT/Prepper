@@ -1,5 +1,5 @@
-show_debug_message(string(x))
-show_debug_message(string(Obj_Player.x))
+
+
 x += xVel
 y = (calcY + -z) + yVel
 z += zVel
