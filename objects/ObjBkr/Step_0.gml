@@ -72,15 +72,17 @@ if currentState == "Firing"{
 	}
 
 if currentState == "Roll"{
-	if rolling = false{
+	if rolling == false{
 		direction = point_direction(x,y,Obj_Player.x,Obj_Player.y - 15)
-		speed = 3
+		speed = 4
 		rolling = true
 	}
+
 }
 
 if currentState == "UnCurl"{
 	if stun > 0{
+		speed = lerp(speed,0,0.25)
 		image_speed = 0
 		stun -= 1
 	}
@@ -92,8 +94,8 @@ if currentState == "UnCurl"{
 if sprite_index = SprBkrCurl{
 	show_debug_message(string(sprite_index))
 }
-//if !collision_point(x+vx,y,ObjCollison,true,true){}
 
-
+show_debug_message(string(speed))
 
 depth = -y
+
