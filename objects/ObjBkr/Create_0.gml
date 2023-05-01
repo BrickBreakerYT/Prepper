@@ -5,6 +5,7 @@ facingDirection = 1
 wakeupRange = 160
 playerX = 0
 playerY = 0
+
 distToPlayer = 0
 
 idleCountdown = 30
@@ -14,5 +15,9 @@ shotsFired = 0
 burstSize = 3
 
 rolling = false
+rollRange = 200
 
-stun = 60
+stun = 60 
+
+preX = x
+preY = y
