@@ -85,14 +85,13 @@ if currentState == "UnCurl"{
 		stun -= 1
 	}
 	else{
-		image_speed = 1
-		image_index = SprBkrCurl
+		image_speed = -1
+		sprite_index = SprBkrCurl
 	}
 }
-
-show_debug_message(string(sprite_index))
-
-
+if sprite_index = SprBkrCurl{
+	show_debug_message(string(sprite_index))
+}
 //if !collision_point(x+vx,y,ObjCollison,true,true){}
 
 
