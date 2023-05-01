@@ -1,1 +1,3 @@
-throwing = true
+throwing = true;
+
+object_get_sprite(ObjTNT)

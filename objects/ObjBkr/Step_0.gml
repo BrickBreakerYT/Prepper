@@ -1,7 +1,3 @@
-
-
-
-
 if object_exists(Obj_Player){
 	playerX = Obj_Player.x
 	playerY = Obj_Player.y
@@ -50,5 +46,11 @@ if currentState = "Idle"{
 		currentState = "Firing"
 	}
 }
+
+//Firing 
+if currentState = "Firing"{
+	sprite_index = SprBkrFire;
+}
+
 
 depth = -y
