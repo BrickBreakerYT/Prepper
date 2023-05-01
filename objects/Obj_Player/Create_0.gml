@@ -10,3 +10,4 @@ preX = 0
 preY = 0
 
 throwing = false
+PlrHit = false

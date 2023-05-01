@@ -9,8 +9,8 @@
   "swfPrecision": 2.525,
   "bbox_left": -1,
   "bbox_right": 23,
-  "bbox_top": 38,
-  "bbox_bottom": 43,
+  "bbox_top": 27,
+  "bbox_bottom": 32,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -44,12 +44,16 @@
     "spriteId": {"name":"SprBkrFire","path":"sprites/SprBkrFire/SprBkrFire.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 20.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
     "length": 5.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "events": {"Keyframes":[
+        {"id":"f6c8b0c4-5d0b-42cb-9ef5-539a94cf4bd8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+                "BkrFire",
+              ],"resourceVersion":"1.0","resourceType":"MessageEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MessageEventKeyframe>",},
+      ],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[

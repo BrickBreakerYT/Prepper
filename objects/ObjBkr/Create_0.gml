@@ -8,3 +8,11 @@ playerY = 0
 distToPlayer = 0
 
 idleCountdown = 30
+
+fireDelay = 20
+shotsFired = 0
+burstSize = 3
+
+rolling = false
+
+stun = 60
