@@ -3,6 +3,7 @@
     {"id":{"name":"SprBkrBullet","path":"sprites/SprBkrBullet/SprBkrBullet.yy",},"order":5,},
     {"id":{"name":"ObjProjectileBarrier","path":"objects/ObjProjectileBarrier/ObjProjectileBarrier.yy",},"order":2,},
     {"id":{"name":"SprPlrWalkTNT","path":"sprites/SprPlrWalkTNT/SprPlrWalkTNT.yy",},"order":3,},
+    {"id":{"name":"SprBkrUnCurl","path":"sprites/SprBkrUnCurl/SprBkrUnCurl.yy",},"order":6,},
     {"id":{"name":"SprBRT7Idle","path":"sprites/SprBRT7Idle/SprBRT7Idle.yy",},"order":2,},
     {"id":{"name":"SprBkrWake","path":"sprites/SprBkrWake/SprBkrWake.yy",},"order":1,},
     {"id":{"name":"SprPlrWalk","path":"sprites/SprPlrWalk/SprPlrWalk.yy",},"order":0,},

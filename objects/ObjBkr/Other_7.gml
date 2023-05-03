@@ -5,10 +5,12 @@ if sprite_index = SprBkrCurl{
 		currentState = "Roll"
 		sprite_index = SprBkrRoll
 	}
-	if currentState = "UnCurl"{
+}
+	if sprite_index = SprBkrUnCurl{
+		show_debug_message("here")
 		currentState = "Idle"
 		stun = 60
-	}
+		unCurling = false
 }
 
 if sprite_index = SprBkrFire{

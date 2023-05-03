@@ -15,9 +15,10 @@ shotsFired = 0
 burstSize = 3
 
 rolling = false
-rollRange = 200
 
 stun = 60 
+
+unCurling = false
 
 preX = x
 preY = y

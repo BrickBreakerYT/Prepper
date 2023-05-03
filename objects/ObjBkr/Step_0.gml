@@ -77,8 +77,23 @@ if currentState == "Roll"{
 		speed = 4
 		rolling = true
 	}
-
+	else{
+		var angleToPlayer
+        angleToPlayer = point_direction(x,y,Obj_Player.x,Obj_Player.y - 15)
+		var turnSpeed = 1.5
+		
+		if angle_difference(direction, angleToPlayer) > 0{direction -= turnSpeed}
+		if angle_difference(direction, angleToPlayer) < 0{direction += turnSpeed}
+		if abs(angle_difference(direction, angleToPlayer)) > 90{speed = lerp(speed, 0, 0.1)}
+		else{speed = lerp(speed, 7, 0.1)}
+	}
+	if speed <= 0.5 && currentState = "Roll"{
+		currentState = "UnCurl"
+		speed = 0
+		rolling = false
+	}
 }
+
 
 if currentState == "UnCurl"{
 	if stun > 0{
@@ -87,15 +102,16 @@ if currentState == "UnCurl"{
 		stun -= 1
 	}
 	else{
-		image_speed = -1
-		sprite_index = SprBkrCurl
+		sprite_index = SprBkrUnCurl
+		image_speed = 1
+		if unCurling = false{
+			image_index = 0
+			unCurling = true
+		}
 	}
 }
-if sprite_index = SprBkrCurl{
-	show_debug_message(string(sprite_index))
-}
+show_debug_message(string(image_speed))
 
-show_debug_message(string(speed))
 
 depth = -y
 
