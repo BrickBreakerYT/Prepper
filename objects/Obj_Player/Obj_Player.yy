@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprPlrThrowTNT",
-    "path": "sprites/SprPlrThrowTNT/SprPlrThrowTNT.yy",
+    "name": "SprPlrIdleTNT",
+    "path": "sprites/SprPlrIdleTNT/SprPlrIdleTNT.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,7 @@
     {"isDnD":false,"eventNum":32,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":69,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ObjBkrBullet","path":"objects/ObjBkrBullet/ObjBkrBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

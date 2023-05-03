@@ -9,7 +9,7 @@ if currentState = "Asleep" {
 	if distToPlayer <= wakeupRange{
 		currentState = "WakeUp"
 	}
-	sprite_index =  SprBRT7Start
+	sprite_index =  SprBRT7Load
 	image_speed = 0
 }
 else{
