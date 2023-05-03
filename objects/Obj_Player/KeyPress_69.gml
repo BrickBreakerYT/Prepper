@@ -1,2 +1,2 @@
 sprite_index = SprPlrIdleTNT
-// Change when picking uo tnt
+// Change when picking up tnt
