@@ -10,6 +10,7 @@
     {"id":{"name":"SprBkrWake","path":"sprites/SprBkrWake/SprBkrWake.yy",},"order":1,},
     {"id":{"name":"SprPlrWalk","path":"sprites/SprPlrWalk/SprPlrWalk.yy",},"order":0,},
     {"id":{"name":"SprBkrIdle","path":"sprites/SprBkrIdle/SprBkrIdle.yy",},"order":0,},
+    {"id":{"name":"SprBkrUnCurl","path":"sprites/SprBkrUnCurl/SprBkrUnCurl.yy",},"order":6,},
     {"id":{"name":"Lifebar3","path":"sprites/Lifebar3/Lifebar3.yy",},"order":2,},
     {"id":{"name":"ObjTNT","path":"objects/ObjTNT/ObjTNT.yy",},"order":9,},
     {"id":{"name":"ObjBkr","path":"objects/ObjBkr/ObjBkr.yy",},"order":2,},
@@ -27,6 +28,7 @@
     {"id":{"name":"Lifebar2","path":"sprites/Lifebar2/Lifebar2.yy",},"order":1,},
     {"id":{"name":"SprBRT7Stop","path":"sprites/SprBRT7Stop/SprBRT7Stop.yy",},"order":3,},
     {"id":{"name":"SprMainTiles","path":"sprites/SprMainTiles/SprMainTiles.yy",},"order":1,},
+    {"id":{"name":"SprHUD","path":"sprites/SprHUD/SprHUD.yy",},"order":11,},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},"order":7,},
     {"id":{"name":"SprBRT7Load","path":"sprites/SprBRT7Load/SprBRT7Load.yy",},"order":4,},
     {"id":{"name":"ObjBkrBullet","path":"objects/ObjBkrBullet/ObjBkrBullet.yy",},"order":3,},
@@ -66,8 +68,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

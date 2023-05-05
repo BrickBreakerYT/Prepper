@@ -37,6 +37,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjProjectileBarrier","path":"objects/ObjProjectileBarrier/ObjProjectileBarrier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.75,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":280.0,"y":548.0,"resourceVersion":"1.0","name":"inst_3CA0D926","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjProjectileBarrier","path":"objects/ObjProjectileBarrier/ObjProjectileBarrier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":208.0,"y":568.0,"resourceVersion":"1.0","name":"inst_41BE774D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjProjectileBarrier","path":"objects/ObjProjectileBarrier/ObjProjectileBarrier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":272.0,"y":568.0,"resourceVersion":"1.0","name":"inst_116612AC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"ObjBRT7","path":"objects/ObjBRT7/ObjBRT7.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":304.0,"resourceVersion":"1.0","name":"inst_32329FD7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":4,"gridY":4,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Colliders","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":96.0,"resourceVersion":"1.0","name":"inst_D75C3EE","tags":[],"resourceType":"GMRInstance",},
@@ -172,6 +173,7 @@
     {"name":"inst_3CA0D926","path":"rooms/RmTest/RmTest.yy",},
     {"name":"inst_41BE774D","path":"rooms/RmTest/RmTest.yy",},
     {"name":"inst_116612AC","path":"rooms/RmTest/RmTest.yy",},
+    {"name":"inst_32329FD7","path":"rooms/RmTest/RmTest.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
