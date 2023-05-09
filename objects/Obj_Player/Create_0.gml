@@ -10,4 +10,6 @@ preX = 0
 preY = 0
 
 throwing = false
-PlrHit1 = false
+PlrHit = false
+PlrHits = 0
+PlrHealth = 41

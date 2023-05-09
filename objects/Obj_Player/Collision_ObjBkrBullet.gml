@@ -1,1 +1,2 @@
-PlrHit1 = true 
+PlrHits = +1
+PlrHit = true	

@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Lifebar",
-    "path": "folders/Objects/Lifebar.yy",
+    "name": "Hud",
+    "path": "folders/Objects/Hud.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjLb",

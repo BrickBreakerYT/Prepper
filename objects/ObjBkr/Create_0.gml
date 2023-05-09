@@ -1,4 +1,4 @@
-currentState = "Asleep"
+ currentState = "Asleep"
 facingDirection = 1
 
 
