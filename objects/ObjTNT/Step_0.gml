@@ -1,5 +1,3 @@
-
-
 x += xVel
 y = (calcY + -z) + yVel
 z += zVel

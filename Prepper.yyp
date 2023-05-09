@@ -6,6 +6,7 @@
     {"id":{"name":"ObjLb","path":"objects/ObjLb/ObjLb.yy",},"order":0,},
     {"id":{"name":"ObjSrg","path":"objects/ObjSrg/ObjSrg.yy",},"order":3,},
     {"id":{"name":"SprBRT7Idle","path":"sprites/SprBRT7Idle/SprBRT7Idle.yy",},"order":2,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":4,},
     {"id":{"name":"Syringe","path":"sprites/Syringe/Syringe.yy",},"order":10,},
     {"id":{"name":"SprBkrWake","path":"sprites/SprBkrWake/SprBkrWake.yy",},"order":1,},
     {"id":{"name":"SprPlrWalk","path":"sprites/SprPlrWalk/SprPlrWalk.yy",},"order":0,},
@@ -68,6 +69,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
