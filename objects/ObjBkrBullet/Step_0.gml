@@ -1,1 +1,1 @@
-depth = -y
+depth = (-y) - 20
