@@ -8,3 +8,7 @@ speed = 4
 image_speed = 0
 
 image_angle += random_range(-5,5)
+
+gpu_set_blendmode(bm_max);
+draw_self();
+gpu_set_blendmode(bm_normal);
