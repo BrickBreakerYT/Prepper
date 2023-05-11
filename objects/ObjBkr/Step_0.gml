@@ -50,6 +50,12 @@ if currentState == "Idle"{
 		idleCountdown = 30
 		currentState = "Firing"
 	}
+	if distToPlayer > SleepRange{
+		sprite_index = SprBkrWake
+		image_index = 4
+		image_speed = -1
+		currentState = "PowerDown"	
+	}
 }
 
 if currentState == "Firing"{
@@ -74,7 +80,7 @@ if currentState == "Firing"{
 if currentState == "Roll"{
 	if rolling == false{
 		direction = point_direction(x,y,Obj_Player.x,Obj_Player.y - 15)
-		speed = 3
+		speed = 1
 		rolling = true
 	}
 	else{
@@ -110,6 +116,13 @@ if currentState == "UnCurl"{
 		}
 	}
 }
+
+if currentState == "PowerDown" && image_index >= 1{
+	image_speed = 0
+	currentState = "Asleep"
+}
+
+
 show_debug_message(string(image_speed))
 
 

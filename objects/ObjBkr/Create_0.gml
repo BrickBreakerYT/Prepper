@@ -1,7 +1,7 @@
  currentState = "Asleep"
 facingDirection = 1
 
-
+SleepRange = 250
 wakeupRange = 100
 playerX = 0
 playerY = 0
