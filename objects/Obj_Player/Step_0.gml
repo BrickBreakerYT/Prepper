@@ -2,16 +2,8 @@
 //Locks player in place when throwing TNT
 //See "Key Down - Space" and "Animation End"
 //This step must be done before movement is calculated
-if throwing{
-	image_speed = 1
-	sprite_index = SprPlrThrowTNT
-	
-	x = preX
-	y = preY
-	
 
-}
-	else{
+	if !throwing{
 	//Grabs Inputs
 	MoveRight = keyboard_check(vk_right);
 	MoveLeft = keyboard_check(vk_left);
@@ -78,6 +70,15 @@ else if HasTNT = true{
 	else if (MoveRight - MoveLeft) < -0.1{
 		image_xscale = lerp(image_xscale, 1 , 0.75)
 	}
+}
+
+if throwing{
+	image_speed = 1
+	sprite_index = SprPlrThrowTNT
+	
+	x = preX
+	y = preY
+	
 }
 depth = -y
 
