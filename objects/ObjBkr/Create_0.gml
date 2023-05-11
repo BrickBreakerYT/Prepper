@@ -2,7 +2,7 @@
 facingDirection = 1
 
 
-wakeupRange = 160
+wakeupRange = 100
 playerX = 0
 playerY = 0
 

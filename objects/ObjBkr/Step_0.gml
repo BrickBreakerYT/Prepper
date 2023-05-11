@@ -74,7 +74,7 @@ if currentState == "Firing"{
 if currentState == "Roll"{
 	if rolling == false{
 		direction = point_direction(x,y,Obj_Player.x,Obj_Player.y - 15)
-		speed = 4
+		speed = 3
 		rolling = true
 	}
 	else{
@@ -85,7 +85,7 @@ if currentState == "Roll"{
 		if angle_difference(direction, angleToPlayer) > 0{direction -= turnSpeed}
 		if angle_difference(direction, angleToPlayer) < 0{direction += turnSpeed}
 		if abs(angle_difference(direction, angleToPlayer)) > 90{speed = lerp(speed, 0, 0.1)}
-		else{speed = lerp(speed, 7, 0.1)}
+		else{speed = lerp(speed, 5, 0.1)}
 	}
 	if speed <= 0.5 && currentState = "Roll"{
 		currentState = "UnCurl"

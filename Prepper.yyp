@@ -3,6 +3,7 @@
     {"id":{"name":"SprBkrBullet","path":"sprites/SprBkrBullet/SprBkrBullet.yy",},"order":5,},
     {"id":{"name":"ObjProjectileBarrier","path":"objects/ObjProjectileBarrier/ObjProjectileBarrier.yy",},"order":2,},
     {"id":{"name":"SprPlrWalkTNT","path":"sprites/SprPlrWalkTNT/SprPlrWalkTNT.yy",},"order":3,},
+    {"id":{"name":"SprPlrIdle","path":"sprites/SprPlrIdle/SprPlrIdle.yy",},"order":4,},
     {"id":{"name":"SprElevator","path":"sprites/SprElevator/SprElevator.yy",},"order":12,},
     {"id":{"name":"SprBRT7Idle","path":"sprites/SprBRT7Idle/SprBRT7Idle.yy",},"order":2,},
     {"id":{"name":"SprBkrWake","path":"sprites/SprBkrWake/SprBkrWake.yy",},"order":1,},
@@ -11,7 +12,6 @@
     {"id":{"name":"SprBkrUnCurl","path":"sprites/SprBkrUnCurl/SprBkrUnCurl.yy",},"order":6,},
     {"id":{"name":"ObjTNT","path":"objects/ObjTNT/ObjTNT.yy",},"order":9,},
     {"id":{"name":"ObjBkr","path":"objects/ObjBkr/ObjBkr.yy",},"order":2,},
-    {"id":{"name":"ObjHealthPack","path":"objects/ObjHealthPack/ObjHealthPack.yy",},"order":13,},
     {"id":{"name":"TilMainTiles","path":"tilesets/TilMainTiles/TilMainTiles.yy",},"order":0,},
     {"id":{"name":"SprTNT","path":"sprites/SprTNT/SprTNT.yy",},"order":5,},
     {"id":{"name":"SprBRT7Fire","path":"sprites/SprBRT7Fire/SprBRT7Fire.yy",},"order":5,},
@@ -26,6 +26,7 @@
     {"id":{"name":"SprBRT7Stop","path":"sprites/SprBRT7Stop/SprBRT7Stop.yy",},"order":3,},
     {"id":{"name":"SprMainTiles","path":"sprites/SprMainTiles/SprMainTiles.yy",},"order":1,},
     {"id":{"name":"SprHUD","path":"sprites/SprHUD/SprHUD.yy",},"order":11,},
+    {"id":{"name":"SprBkgrnd","path":"sprites/SprBkgrnd/SprBkgrnd.yy",},"order":14,},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},"order":7,},
     {"id":{"name":"SprHealthPack","path":"sprites/SprHealthPack/SprHealthPack.yy",},"order":13,},
     {"id":{"name":"SprBRT7Load","path":"sprites/SprBRT7Load/SprBRT7Load.yy",},"order":4,},
@@ -42,7 +43,6 @@
     {"id":{"name":"SprBRT7Roll","path":"sprites/SprBRT7Roll/SprBRT7Roll.yy",},"order":0,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},"order":2,},
-    {"id":{"name":"ObjTNT2","path":"objects/ObjTNT2/ObjTNT2.yy",},"order":14,},
     {"id":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},"order":2,},
   ],
   "Options": [
@@ -67,8 +67,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},},
     {"roomId":{"name":"Lvl1","path":"rooms/Lvl1/Lvl1.yy",},},
+    {"roomId":{"name":"RmTest","path":"rooms/RmTest/RmTest.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
@@ -91,6 +91,7 @@
     {"folderPath":"folders/Sprites/BRT7.yy","order":4,"resourceVersion":"1.0","name":"BRT7","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Enemies.yy","order":7,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Hidden.yy","order":8,"resourceVersion":"1.0","name":"Hidden","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Lifebar.yy","order":9,"resourceVersion":"1.0","name":"Lifebar","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Hud.yy","order":11,"resourceVersion":"1.0","name":"Hud","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
