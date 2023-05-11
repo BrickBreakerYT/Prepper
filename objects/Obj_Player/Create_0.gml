@@ -13,3 +13,4 @@ throwing = false
 PlrHit = false
 PlrHits = 0
 PlrHealth = 41
+HasTNT = false

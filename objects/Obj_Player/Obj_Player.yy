@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprPlrIdleTNT",
-    "path": "sprites/SprPlrIdleTNT/SprPlrIdleTNT.yy",
+    "name": "SprPlrIdle",
+    "path": "sprites/SprPlrIdle/SprPlrIdle.yy",
   },
   "solid": false,
   "visible": true,

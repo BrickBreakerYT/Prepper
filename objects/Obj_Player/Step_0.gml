@@ -52,14 +52,22 @@ if throwing{
 
 	// Sets Sprite Animation and speed
 	if abs(vx) + abs(vy) > 0.1{
-		sprite_index = SprPlrWalkTNT
-	
+		sprite_index = SprPlrWalk
+		
 		image_speed = lerp(image_speed, ((abs(vx) + abs(vy))/WalkSpeed) * 4 , 0.3)
 	}
 	else{
-		sprite_index = SprPlrIdleTNT
+		sprite_index = SprPlrIdle
 		image_speed = lerp(image_speed, 0.75, 0.01)
 	}
+	
+	
+	
+	if HasTNT = true and abs(vx) + abs(vy) > 0.1{
+		sprite_index = SprPlrWalkTNT
+		image_speed = lerp(image_speed, ((abs(vx) + abs(vy))/WalkSpeed) * 4 , 0.3)
+	}
+
 
 
 	// Sets player facing direction
