@@ -2,16 +2,8 @@
 //Locks player in place when throwing TNT
 //See "Key Down - Space" and "Animation End"
 //This step must be done before movement is calculated
-if throwing{
-	image_speed = 1
-	sprite_index = SprPlrThrowTNT
-	
-	x = preX
-	y = preY
-	
 
-}
-	else{
+	if !throwing{
 	//Grabs Inputs
 	MoveRight = keyboard_check(vk_right);
 	MoveLeft = keyboard_check(vk_left);
@@ -51,7 +43,7 @@ if throwing{
 
 
 	// Sets Sprite Animation and speed
-	if abs(vx) + abs(vy) > 0.1{
+	if abs(vx) + abs(vy) > 0.1 and HasTNT = false{
 		sprite_index = SprPlrWalk
 		
 		image_speed = lerp(image_speed, ((abs(vx) + abs(vy))/WalkSpeed) * 4 , 0.3)
@@ -60,15 +52,16 @@ if throwing{
 		sprite_index = SprPlrIdle
 		image_speed = lerp(image_speed, 0.75, 0.01)
 	}
-	
-	
-	
+
 	if HasTNT = true and abs(vx) + abs(vy) > 0.1{
 		sprite_index = SprPlrWalkTNT
 		image_speed = lerp(image_speed, ((abs(vx) + abs(vy))/WalkSpeed) * 4 , 0.3)
 	}
-
-
+	
+else if HasTNT = true{
+		sprite_index = SprPlrIdleTNT
+		image_speed = lerp(image_speed, 0.75, 0.01)
+	}
 
 	// Sets player facing direction
 	if (MoveRight - MoveLeft) > 0.1 {
@@ -77,6 +70,15 @@ if throwing{
 	else if (MoveRight - MoveLeft) < -0.1{
 		image_xscale = lerp(image_xscale, 1 , 0.75)
 	}
+}
+
+if throwing{
+	image_speed = 1
+	sprite_index = SprPlrThrowTNT
+	
+	x = preX
+	y = preY
+	
 }
 depth = -y
 
