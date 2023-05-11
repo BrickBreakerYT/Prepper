@@ -42,6 +42,7 @@
     {"id":{"name":"SprBRTRckt","path":"sprites/SprBRTRckt/SprBRTRckt.yy",},"order":6,},
     {"id":{"name":"Lvl1","path":"rooms/Lvl1/Lvl1.yy",},"order":4,},
     {"id":{"name":"SprPlrThrowTNT","path":"sprites/SprPlrThrowTNT/SprPlrThrowTNT.yy",},"order":2,},
+    {"id":{"name":"ObjMed","path":"objects/ObjMed/ObjMed.yy",},"order":5,},
     {"id":{"name":"SprBRT7Roll","path":"sprites/SprBRT7Roll/SprBRT7Roll.yy",},"order":0,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},"order":2,},
