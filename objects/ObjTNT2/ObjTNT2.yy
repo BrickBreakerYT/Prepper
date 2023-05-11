@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Lifebar1",
-    "path": "sprites/Lifebar1/Lifebar1.yy",
+    "name": "SprTNT",
+    "path": "sprites/SprTNT/SprTNT.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Hud",
-    "path": "folders/Objects/Hud.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ObjLb",
+  "name": "ObjTNT2",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Syringe",
-    "path": "sprites/Syringe/Syringe.yy",
+    "name": "SprHealthPack",
+    "path": "sprites/SprHealthPack/SprHealthPack.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Hud",
-    "path": "folders/Objects/Hud.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ObjSrg",
+  "name": "ObjHealthPack",
   "tags": [],
   "resourceType": "GMObject",
 }

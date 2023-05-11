@@ -1,0 +1,1 @@
+draw_sprite(SprTNT, 0, x, y-32)
