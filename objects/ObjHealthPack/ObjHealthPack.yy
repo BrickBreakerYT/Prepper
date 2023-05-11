@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Lifebar1",
-    "path": "sprites/Lifebar1/Lifebar1.yy",
+    "name": "SprHealthPack",
+    "path": "sprites/SprHealthPack/SprHealthPack.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Hud",
-    "path": "folders/Objects/Hud.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ObjLb",
+  "name": "ObjHealthPack",
   "tags": [],
   "resourceType": "GMObject",
 }
