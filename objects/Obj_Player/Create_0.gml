@@ -1,4 +1,4 @@
-WalkSpeed = 2;
+WalkSpeed = 3;
 vx = 0;
 vy = 0;
 MoveRight = 0;
