@@ -3,5 +3,5 @@ PlrHit = true
 
 if iframes <= 0{
 	iframes = 5
-	global.Player_Health -= 1
+	global.Player_Health -= 4
 }
