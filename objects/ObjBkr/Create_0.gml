@@ -22,3 +22,6 @@ unCurling = false
 
 preX = x
 preY = y
+
+
+dead = false

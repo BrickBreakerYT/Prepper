@@ -1,0 +1,6 @@
+speed = random_range(0, 2)
+direction = random_range(-180,90)
+x += random_range(-3, 3)
+y += random_range(0,20)
+image_index = irandom_range(0,4)
+rotspeed = random_range(-3,3)

@@ -42,12 +42,8 @@ else{
 
 ////Bouncing off walls
 
-if exploding = false{
-	//ExplodeEarly
-	if collision_circle(x,calcY - z, 40, ObjBkr,true,true) or collision_circle(x,calcY - z, 40, ObjBRT7,true,true) or collision_circle(x,calcY - z, 40, ObjTwr,true,true){
-		xVel = (-xVel)/2
-	}
-}
+
+
 //// Counts Down Fuse
 if fuseTime > 0{
 	fuseTime -= 1
@@ -57,4 +53,7 @@ else{
 	fuseTime = 0
 	image_speed = 1
 	exploding = true
+	xVel = 0
+	yVel = 0
+	zVel = 0
 }

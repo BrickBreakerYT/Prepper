@@ -10,7 +10,13 @@ preX = 0
 preY = 0
 
 throwing = false
+TNTthrown = false
+ammoCount = 0
 PlrHit = false
 PlrHits = 0
 PlrHealth = 41
-HasTNT = false
+
+
+iframes = 0
+
+global.Player_Health = 41

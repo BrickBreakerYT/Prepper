@@ -1,4 +1,5 @@
 image_speed = 0
+depth = 0
 
 z = 28.0
 calcY = y

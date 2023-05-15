@@ -123,7 +123,18 @@ if currentState == "PowerDown" && image_index >= 1{
 }
 
 
-show_debug_message(string(image_speed))
+//Death
+if dead{
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_destroy(self)
+}
+
+
 
 
 depth = -y
