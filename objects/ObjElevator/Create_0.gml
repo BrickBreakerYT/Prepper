@@ -1,9 +1,9 @@
 PlrDist = distance_to_object(Obj_Player)
 
-range1 = 100
-range2 = 85
-range3 = 65
-range4 = 55
+range1 = 40
+range2 = 25
+range3 = 15
+range4 = 5
 
 depth = -y
 
