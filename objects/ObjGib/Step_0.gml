@@ -7,5 +7,3 @@ vspeed += 0.05
 
 
 depth = -y
-
-show_debug_message(image_index)

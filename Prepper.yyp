@@ -33,6 +33,7 @@
     {"id":{"name":"SprHUD","path":"sprites/SprHUD/SprHUD.yy",},"order":11,},
     {"id":{"name":"SprBkgrnd","path":"sprites/SprBkgrnd/SprBkgrnd.yy",},"order":14,},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},"order":7,},
+    {"id":{"name":"SprPlrFlung","path":"sprites/SprPlrFlung/SprPlrFlung.yy",},"order":5,},
     {"id":{"name":"SprHealthPack","path":"sprites/SprHealthPack/SprHealthPack.yy",},"order":13,},
     {"id":{"name":"Gib1","path":"sprites/Gib1/Gib1.yy",},"order":0,},
     {"id":{"name":"SprBRT7Load","path":"sprites/SprBRT7Load/SprBRT7Load.yy",},"order":4,},

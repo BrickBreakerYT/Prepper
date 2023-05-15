@@ -80,7 +80,7 @@ if currentState == "Firing"{
 if currentState == "Roll"{
 	if rolling == false{
 		direction = point_direction(x,y,Obj_Player.x,Obj_Player.y - 15)
-		speed = 1
+		speed = 2
 		rolling = true
 	}
 	else{

@@ -14,8 +14,8 @@ TNTthrown = false
 ammoCount = 0
 PlrHit = false
 PlrHits = 0
-PlrHealth = 41
 
+Flung = false
 
 iframes = 0
 

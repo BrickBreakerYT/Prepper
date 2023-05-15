@@ -3,7 +3,7 @@
 //See "Key Down - Space" and "Animation End"
 //This step must be done before movement is calculated
 
-if !throwing{
+if !throwing && !Flung{
 	//Grabs Inputs
 		MoveRight = keyboard_check(vk_right);
 		MoveLeft = keyboard_check(vk_left);
@@ -33,14 +33,6 @@ if !throwing{
 			y += vy;
 		}
 	}
-
-	//Pushes Player if in collision object
-	if collision_point(x,y,ObjCollison,true,true) {
-		x = preX
-		y = preY
-	}
-
-
 
 	// Sets Sprite Animation and speed
 	if abs(vx) + abs(vy) > 0.1 and ammoCount <= 0{
@@ -72,6 +64,21 @@ if !throwing{
 	}
 }
 
+
+	//Pushes Player if in collision object
+if collision_point(x,y,ObjCollison,true,true) {
+		x = preX
+		y = preY
+		if Flung{
+			global.Player_Health -= speed/2
+			speed = 0
+			Flung = false
+		
+		}
+		
+}
+
+
 if throwing{
 image_speed = 1
 sprite_index = SprPlrThrowTNT
@@ -94,3 +101,19 @@ iframes -= 1
 preX = x
 preY = y
 
+
+if Flung{
+	speed -= 0.1
+	sprite_index = SprPlrFlung
+	
+	image_xscale = (hspeed/10)
+	
+	if image_xscale < 0 && image_xscale > -1 {image_xscale = -1}
+	if image_xscale > 0 && image_xscale < 1 {image_xscale = 1}
+	
+	
+	if speed <= 0.1{
+		 Flung = false
+		 speed = 0
+	}
+}
