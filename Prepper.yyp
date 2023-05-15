@@ -100,7 +100,6 @@
     {"folderPath":"folders/Sprites/BRT7.yy","order":4,"resourceVersion":"1.0","name":"BRT7","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Enemies.yy","order":7,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Hidden.yy","order":8,"resourceVersion":"1.0","name":"Hidden","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/Lifebar.yy","order":9,"resourceVersion":"1.0","name":"Lifebar","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Hud.yy","order":11,"resourceVersion":"1.0","name":"Hud","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Biker/BkrGibs.yy","order":7,"resourceVersion":"1.0","name":"BkrGibs","tags":[],"resourceType":"GMFolder",},
   ],
