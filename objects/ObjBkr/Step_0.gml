@@ -131,6 +131,12 @@ if dead{
 	instance_create_layer(x,y,"Instances",ObjGib)
 	instance_create_layer(x,y,"Instances",ObjGib)
 	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
+	instance_create_layer(x,y,"Instances",ObjGib)
 	instance_destroy(self)
 }
 

@@ -1,4 +1,4 @@
-WalkSpeed = 3;
+WalkSpeed = 2.5;
 vx = 0;
 vy = 0;
 MoveRight = 0;
@@ -20,3 +20,9 @@ Flung = false
 iframes = 0
 
 global.Player_Health = 41
+
+camX = x-160
+camY = y-120
+
+camXoffset = 0
+camYoffset = 0

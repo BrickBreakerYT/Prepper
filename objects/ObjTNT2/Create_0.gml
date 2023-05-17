@@ -1,2 +1,2 @@
 image_speed = 0
-depth = -1000000
+depth = -9999999999999

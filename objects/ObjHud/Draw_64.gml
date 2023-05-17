@@ -5,3 +5,4 @@ if global.Player_Health <= 0 {
 	game_restart()
 }
 
+draw_sprite(SprTNT2,0,250,200)

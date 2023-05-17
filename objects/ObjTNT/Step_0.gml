@@ -56,4 +56,6 @@ else{
 	xVel = 0
 	yVel = 0
 	zVel = 0
+	depth = -999999999999
+
 }

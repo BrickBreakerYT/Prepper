@@ -3,13 +3,34 @@
 //See "Key Down - Space" and "Animation End"
 //This step must be done before movement is calculated
 
+
+
+
+
 if !throwing && !Flung{
 	//Grabs Inputs
 		MoveRight = keyboard_check(vk_right);
 		MoveLeft = keyboard_check(vk_left);
 		MoveUp = keyboard_check(vk_up);
 		MoveDown = keyboard_check(vk_down);
+		
+		//Calculates Camera Position
+		camXoffset = (MoveRight - MoveLeft)*50
+		camYoffset = (MoveDown - MoveUp)* 50
 
+		if (MoveRight - MoveLeft) = 0 {camXoffset = -image_xscale * 50}
+		
+		camX = lerp(camX, (x + camXoffset) -160, 0.07)
+		camY = lerp(camY, y + camYoffset - 120, 0.07)
+		
+		camera_set_view_pos(view_camera[0], camX, camY)
+
+		if camX >= room_width - 340 {camX = room_width - 340}
+		if camX <= 40 {camX = 40}
+		if camY >= room_height - 280 {camY = room_height - 280}
+		if camY <= 40 {camY = 40}
+
+		
 		//Converts Inputs to velocity
 		vx = lerp(vx, ((MoveRight - MoveLeft)* WalkSpeed) ,0.3)
 		vy = lerp(vy, ((MoveDown - MoveUp)* WalkSpeed), 0.3)
@@ -69,10 +90,12 @@ if !throwing && !Flung{
 if collision_point(x,y,ObjCollison,true,true) {
 		x = preX
 		y = preY
+		if ammoCount >=1{sprite_index = SprPlrIdleTNT}
+		else{sprite_index = SprPlrIdle}
 		if Flung{
 			global.Player_Health -= speed/2
 			speed = 0
-			Flung = false
+			Flung = false 
 		
 		}
 		
